@@ -14,7 +14,6 @@
 		92DCE2D219AE52370073B864 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE2D019AE52370073B864 /* InfoPlist.strings */; };
 		92DCE2D419AE52370073B864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE2D319AE52370073B864 /* main.m */; };
 		92DCE2D819AE52370073B864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE2D719AE52370073B864 /* AppDelegate.m */; };
-		92DCE2DB19AE52370073B864 /* StoryBoardSecrets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE2D919AE52370073B864 /* StoryBoardSecrets.xcdatamodeld */; };
 		92DCE2DD19AE52370073B864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE2DC19AE52370073B864 /* Images.xcassets */; };
 		92DCE2E419AE52370073B864 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DCE2E319AE52370073B864 /* XCTest.framework */; };
 		92DCE2E519AE52370073B864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DCE2C519AE52370073B864 /* Foundation.framework */; };
@@ -22,6 +21,7 @@
 		92DCE2E719AE52370073B864 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DCE2CB19AE52370073B864 /* CoreData.framework */; };
 		92DCE2EF19AE52370073B864 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE2ED19AE52370073B864 /* InfoPlist.strings */; };
 		92DCE2F119AE52370073B864 /* StoryBoardSecretsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE2F019AE52370073B864 /* StoryBoardSecretsTests.m */; };
+		92DCE2FB19AE565E0073B864 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE2FA19AE565E0073B864 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +46,13 @@
 		92DCE2D519AE52370073B864 /* StoryBoardSecrets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardSecrets-Prefix.pch"; sourceTree = "<group>"; };
 		92DCE2D619AE52370073B864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92DCE2D719AE52370073B864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92DCE2DA19AE52370073B864 /* StoryBoardSecrets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoryBoardSecrets.xcdatamodel; sourceTree = "<group>"; };
 		92DCE2DC19AE52370073B864 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92DCE2E219AE52370073B864 /* StoryBoardSecretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardSecretsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DCE2E319AE52370073B864 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		92DCE2EC19AE52370073B864 /* StoryBoardSecretsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardSecretsTests-Info.plist"; sourceTree = "<group>"; };
 		92DCE2EE19AE52370073B864 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92DCE2F019AE52370073B864 /* StoryBoardSecretsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardSecretsTests.m; sourceTree = "<group>"; };
+		92DCE2FA19AE565E0073B864 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = StoryBoardSecrets/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		92DCE2B919AE52370073B864 = {
 			isa = PBXGroup;
 			children = (
+				92DCE2FA19AE565E0073B864 /* Storyboard.storyboard */,
 				92DCE2CD19AE52370073B864 /* StoryBoardSecrets */,
 				92DCE2EA19AE52370073B864 /* StoryBoardSecretsTests */,
 				92DCE2C419AE52370073B864 /* Frameworks */,
@@ -118,7 +119,6 @@
 				92DCE2D619AE52370073B864 /* AppDelegate.h */,
 				92DCE2D719AE52370073B864 /* AppDelegate.m */,
 				92DCE2DC19AE52370073B864 /* Images.xcassets */,
-				92DCE2D919AE52370073B864 /* StoryBoardSecrets.xcdatamodeld */,
 				92DCE2CE19AE52370073B864 /* Supporting Files */,
 			);
 			path = StoryBoardSecrets;
@@ -230,6 +230,7 @@
 			files = (
 				92DCE2D219AE52370073B864 /* InfoPlist.strings in Resources */,
 				92DCE2DD19AE52370073B864 /* Images.xcassets in Resources */,
+				92DCE2FB19AE565E0073B864 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DCE2DB19AE52370073B864 /* StoryBoardSecrets.xcdatamodeld in Sources */,
 				92DCE2D819AE52370073B864 /* AppDelegate.m in Sources */,
 				92DCE2D419AE52370073B864 /* main.m in Sources */,
 			);
@@ -463,19 +463,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		92DCE2D919AE52370073B864 /* StoryBoardSecrets.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				92DCE2DA19AE52370073B864 /* StoryBoardSecrets.xcdatamodel */,
-			);
-			currentVersion = 92DCE2DA19AE52370073B864 /* StoryBoardSecrets.xcdatamodel */;
-			path = StoryBoardSecrets.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 92DCE2BA19AE52370073B864 /* Project object */;
 }
